@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
+const path = require('path')
 
-fs.readFile('./ascii-art.txt', (_, buffer) => {
-  process.stdout.write(buffer.toString())
-})
+const file = path.join(__dirname, './ascii-art.txt')
+
+fs.readFile(file, (_, buffer) => process.stdout.write(buffer.toString()))

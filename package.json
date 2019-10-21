@@ -1,6 +1,6 @@
 {
   "name": "pesadao",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -13,6 +13,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 }
